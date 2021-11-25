@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Open Sans';
-  background-color: rgb(240, 240, 240);
+  background-color: #BBE1FA;
   font-size: medium;
   color: #48466D;
   line-height: 32px;
@@ -27,6 +27,9 @@ a:hover {
 
 .img-circle {
   border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 0%;
+
 }
 
 .list-inline li {
@@ -67,6 +70,12 @@ a:hover {
 
 .icon-sns:visited {
   color: #BBE1FA;
+}
+
+#icon-html, #icon-css, #icon-js, #icon-ruby, #icon-rails {
+  font-size: 32px;
+  color: #0F4C75;
+  margin: 8px, 24px;
 }
 
 .container {
