@@ -26,10 +26,11 @@ a:hover {
 }
 
 .img-circle {
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: 50% 0%;
-
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    width: 200px;
 }
 
 .list-inline li {
